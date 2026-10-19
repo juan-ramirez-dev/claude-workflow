@@ -1,0 +1,54 @@
+{
+  "voice": {
+    "voiceId": "nPczCjzI2devNBz1zQrb",
+    "modelId": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.45,
+      "similarity_boost": 0.8,
+      "style": 0.25,
+      "use_speaker_boost": true
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "text": "I don't trust AI to write good code. So I built a system that doesn't need trust."
+    },
+    {
+      "id": "problem",
+      "text": "AI writes fast. But fast isn't the goal. Shipping something that works is."
+    },
+    {
+      "id": "flow",
+      "text": "It starts in a meeting. Granola takes the notes. Claude turns them into Linear tickets. Figma holds the design, and Claude reads it directly. Then it writes the code. Every pull request gets a live Vercel preview."
+    },
+    {
+      "id": "rules",
+      "text": "Every repo has one rules file. Short. Strict. No 'any' types. No hardcoded colors. No silencing the linter. No features nobody asked for."
+    },
+    {
+      "id": "hooks",
+      "text": "But rules are just suggestions. So I added hooks. Before Claude touches a file, a hook checks it. Hardcoded color? Blocked. Wrong file name? Blocked, with the fix. Push to main? Blocked. Skip the git hooks? Hard block. After every edit, the linter runs on its own, and Claude fixes what it finds before moving on."
+    },
+    {
+      "id": "plan",
+      "text": "Claude doesn't guess. A planner agent writes the plan first. Every architecture or business decision becomes a question, with options. I choose. Then it codes."
+    },
+    {
+      "id": "tests",
+      "text": "A test planner proposes the edge cases. I pick the ones that matter. Jest runs them. Cypress tests the real preview. Then four AI reviewers check the code in parallel, and a fifth one tries to prove them wrong."
+    },
+    {
+      "id": "layers",
+      "text": "Every rule is checked three times. When Claude writes. When I commit. When CI merges. The desktop builds even launch the app on Mac and Windows before release."
+    },
+    {
+      "id": "scale",
+      "text": "Same system in every project. It starts from a template, on day one."
+    },
+    {
+      "id": "close",
+      "text": "AI doesn't make you a better engineer. Your system does. I'm Juan Ramirez. Follow for more."
+    }
+  ]
+}
