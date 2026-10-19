@@ -2,21 +2,10 @@ import { interpolate } from 'remotion'
 import { colors, fonts } from '../theme'
 import { useAppear } from '../timing'
 
-export const EndCard = ({
-  name,
-  role,
-  cta,
-  at,
-}: {
-  name: string
-  role: string
-  cta: string
-  at: number[]
-}) => {
-  const [startAt, systemAt, nameAt, ctaAt] = at
+export const EndCard = ({ cta, at }: { cta: string; at: number[] }) => {
+  const [startAt, systemAt, ctaAt] = at
   const line1 = useAppear(startAt)
   const line2 = useAppear(systemAt, 12)
-  const who = useAppear(nameAt)
   const follow = useAppear(ctaAt, 10)
   const title = { fontFamily: fonts.sans, fontWeight: 800, fontSize: 84, lineHeight: 1.05, letterSpacing: -2 }
 
@@ -37,12 +26,6 @@ export const EndCard = ({
         >
           Your system does.
         </div>
-      </div>
-      <div style={{ opacity: who, transform: `translateY(${interpolate(who, [0, 1], [30, 0])}px)` }}>
-        <div style={{ fontFamily: fonts.sans, fontWeight: 800, fontSize: 64, color: colors.text }}>
-          {name}
-        </div>
-        <div style={{ fontFamily: fonts.mono, fontSize: 30, color: colors.muted }}>{role}</div>
       </div>
       <div
         style={{

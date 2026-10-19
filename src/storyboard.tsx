@@ -124,9 +124,9 @@ export const storyboard: Record<string, Board> = {
   },
   close: {
     label: '',
-    cues: ['AI', 'Your', 'Juan', 'Follow'],
+    cues: ['AI', 'Your', 'Follow'],
     render: at => (
-      <EndCard name="Juan Ramirez" role="Software Engineer" cta="Follow for more" at={at} />
+      <EndCard cta="Follow me" at={at} />
     ),
   },
 }

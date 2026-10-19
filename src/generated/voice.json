@@ -1321,87 +1321,67 @@
     {
       "id": "close",
       "audio": "audio/close.mp3",
-      "duration": 5.573,
+      "duration": 4.18,
       "words": [
         {
           "text": "AI",
           "start": 0,
-          "end": 0.348
+          "end": 0.383
         },
         {
           "text": "doesn't",
-          "start": 0.406,
-          "end": 0.639
+          "start": 0.453,
+          "end": 0.708
         },
         {
           "text": "make",
-          "start": 0.673,
-          "end": 0.801
+          "start": 0.743,
+          "end": 0.882
         },
         {
           "text": "you",
-          "start": 0.824,
-          "end": 0.894
+          "start": 0.906,
+          "end": 0.987
         },
         {
           "text": "a",
-          "start": 0.94,
-          "end": 0.964
+          "start": 1.022,
+          "end": 1.045
         },
         {
           "text": "better",
-          "start": 1.01,
-          "end": 1.196
+          "start": 1.08,
+          "end": 1.265
         },
         {
           "text": "engineer.",
-          "start": 1.242,
-          "end": 1.8
+          "start": 1.312,
+          "end": 1.858
         },
         {
           "text": "Your",
-          "start": 2.078,
-          "end": 2.252
+          "start": 2.183,
+          "end": 2.357
         },
         {
           "text": "system",
-          "start": 2.31,
-          "end": 2.635
+          "start": 2.415,
+          "end": 2.717
         },
         {
           "text": "does.",
-          "start": 2.694,
-          "end": 3.077
-        },
-        {
-          "text": "I'm",
-          "start": 3.135,
-          "end": 3.32
-        },
-        {
-          "text": "Juan",
-          "start": 3.39,
-          "end": 3.541
-        },
-        {
-          "text": "Ramirez.",
-          "start": 3.622,
-          "end": 4.272
+          "start": 2.775,
+          "end": 3.17
         },
         {
           "text": "Follow",
-          "start": 4.551,
-          "end": 4.841
+          "start": 3.344,
+          "end": 3.622
         },
         {
-          "text": "for",
-          "start": 4.888,
-          "end": 4.981
-        },
-        {
-          "text": "more.",
-          "start": 5.027,
-          "end": 5.573
+          "text": "me.",
+          "start": 3.669,
+          "end": 4.18
         }
       ]
     }
